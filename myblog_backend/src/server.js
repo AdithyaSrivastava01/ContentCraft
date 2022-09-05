@@ -7,8 +7,6 @@ const commentroutes=require("./router/commentroutes")
 const app=express();
 const mongoose=require("mongoose");
 
-const dbURI="mongodb+srv://adithya:adithya%4001@myblog.1n7uq.mongodb.net/myblog?retryWrites=true&w=majority"//special characters like @
-//! in password and username must be replaced by their corresponding hex codes
 
 
 
